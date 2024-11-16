@@ -46,7 +46,7 @@ async function getTheDatas(){
     if(weatherOccasion == "Wind"){
         weatherOccasionImg.setAttribute("src","Images/wind.png")
     }
-    humidityRate.innerText = `${weatherClass.getHumidty()}`
+    humidityRate.innerText = `${weatherClass.getHumidty()}%`
     windSpeedRate.innerText = `${weatherClass.getWindSpeed()} km/h`
     searchInput.value = ""
 }
