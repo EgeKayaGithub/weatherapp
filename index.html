@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>   
+    <div class="card">
+        <div class="searchDiv">
+            <input type="text" id="searchInput" placeholder="Enter city name">
+            <button id="searchButton"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <img src="Images/clouds.png" id="weatherOccasionImg">
+            <h1 class="temp" id="temp">0°C</h1>
+            <h2 id="cityName">City</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="Images/humidity.png">
+                <div>
+                    <p id="humidityRate">0%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="Images/wind.png">
+                <div>
+                    <p id="windSpeedRate">0 km/h</>
+                    <p>Wind Speed</p>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
